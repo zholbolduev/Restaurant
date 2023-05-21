@@ -1,0 +1,51 @@
+.menu__img {
+  width: 50%;
+  margin-top: 50px;
+}
+.menuimg__cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menuimg__title {
+  width: 60%;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 30px;
+  font-family: Arial;
+  font-weight: light;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+.menu__box {
+  display: flex;
+  align-items: center;
+}
+.menu__title {
+  font-family: Arial;
+  font-weight: light;
+}
+.wine__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1000px) {
+  .menu__img {
+    width: 700px;
+  }
+}
+
+@media (max-width: 800px) {
+  .menu__img {
+    width: 500px;
+  }
+}
+@media (max-width: 600px) {
+  .menu__img {
+    width: 300px;
+  }
+  .menu__title {
+    font-size: 18px;
+  }
+}

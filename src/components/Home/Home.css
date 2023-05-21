@@ -1,0 +1,180 @@
+.tn-atom {
+  color: #f8f5f5;
+  font-size: 53px;
+  margin-left: 10%;
+}
+@media (max-width: 420px) {
+  .tn-atom {
+    font-size: 30px;
+  }
+}
+.bl {
+  background-color: #faf8f8;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.all {
+  margin-top: 100px;
+}
+
+.about {
+  font-size: 18px;
+  line-height: 1.55;
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  margin-top: 60px;
+  width: 20%;
+  margin-left: 23%;
+}
+
+.about2 {
+  font-size: 18px;
+  line-height: 1.55;
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  margin-top: 60px;
+  width: 20%;
+  margin-left: 55%;
+}
+
+@media (max-width: 850px) {
+  .about {
+    width: 40%;
+    margin-left: 15%;
+  }
+}
+
+@media (max-width: 850px) {
+  .about2 {
+    width: 40%;
+    margin-left: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .about {
+    width: 40%;
+    margin-left: 14%;
+    font-size: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .about2 {
+    width: 40%;
+    margin-left: 50%;
+    font-size: 10px;
+  }
+}
+/* .lin {
+    border-left: 4px solid rgb(126, 128, 126);
+    height: 100px;
+    margin-left: 50%;
+  } */
+
+.p {
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 1.55;
+  font-size: 22px;
+  width: 67%;
+  margin-left: 16%;
+  margin-top: 50px;
+}
+
+@media (max-width: 430px) {
+  .p {
+    font-size: 10px;
+  }
+}
+.btn {
+  color: #000000;
+  border: 1px solid #b2a585;
+  background-color: #ffffff;
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  font-family: FuturaPT;
+  font-weight: 300;
+  height: 60px;
+  font-size: 16px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-left: 16%;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.back {
+  background-image: url("https://abrakadabra.fun/uploads/posts/2022-02/1644263564_1-abrakadabra-fun-p-fon-dlya-kafe-2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.oneback {
+  background-image: url("https://abrakadabra.fun/uploads/posts/2022-03/1646426638_1-abrakadabra-fun-p-fon-dlya-restorana-1.jpg");
+  background-repeat: no-repeat;
+  height: 1000px;
+  width: 100%;
+}
+
+.timg {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 100px;
+}
+
+.trbtn {
+  margin-top: 90px;
+  margin-left: 35%;
+  background-color: initial;
+  height: 70px;
+  width: 30%;
+  font-size: 30px;
+  color: #ffffff;
+  border-width: 3px;
+  border-color: #f8f5f5;
+  border-radius: 15px;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.trbtn:hover {
+  background-color: rgb(140, 97, 45);
+}
+
+.trbtn2 {
+  margin-left: 35%;
+  margin-top: 50px;
+  background-color: initial;
+  height: 70px;
+  width: 30%;
+  font-size: 20px;
+  color: #ffffff;
+  border-width: 3px;
+  border-color: #f8f5f5;
+  border-radius: 15px;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.trbtn2:hover {
+  background-color: rgb(140, 97, 45);
+}
+@media (max-width: 450px) {
+  .trbtn {
+    font-size: 15px;
+  }
+}
+@media (max-width: 450px) {
+  .trbtn2 {
+    font-size: 13px;
+  }
+}
